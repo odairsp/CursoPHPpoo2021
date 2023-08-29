@@ -1,0 +1,15 @@
+{
+    "name": "user/curso-ph-ppoo2021",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app"
+        }
+    },
+    "authors": [
+        {
+            "name": "odair",
+            "email": "odair.sp@hotmail.com"
+        }
+    ],
+    "require": {}
+}
