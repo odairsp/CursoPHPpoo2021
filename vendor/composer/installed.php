@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'user/curso-ph-ppoo2021',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '037bdc8857e9b9ee8c49fe2cdc1391f060e4b075',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         'user/curso-ph-ppoo2021' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '037bdc8857e9b9ee8c49fe2cdc1391f060e4b075',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

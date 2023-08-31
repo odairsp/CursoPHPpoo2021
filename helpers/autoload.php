@@ -4,14 +4,14 @@ spl_autoload_register(function ($class) {
 
 
     // base directory for the namespace prefix
-    $base_dir = __DIR__ . '/src/';
+    $base_dir = dirname(__FILE__, 2) . '/';
 
-    
-    
+
     $file = $base_dir . str_replace('\\', '/', $class) . '.php';
 
     // if the file exists, require it
     if (file_exists($file)) {
-        require $file;
+        return require $file;
     }
+    die("ERRO - '{$class}' não existe!");
 });
