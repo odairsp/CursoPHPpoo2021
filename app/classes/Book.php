@@ -2,6 +2,8 @@
 
 namespace app\classes;
 
-class Book
+class Book extends Products
 {
+    public string $author;
+    public int $page;
 }

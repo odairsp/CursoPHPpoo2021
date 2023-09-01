@@ -2,7 +2,7 @@
 
 namespace app\classes;
 
-class Abajur
+class Abajur extends Products
 {
-    
+    public bool $isOn = false;
 }

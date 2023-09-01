@@ -2,8 +2,10 @@
 
 namespace app\models;
 
-class User
+class User extends Model
 {
+
+
     public function read()
     {
         return "Lendo user...";

@@ -4,15 +4,13 @@ namespace app\classes;
 
 class Products
 {
-    private string $name;
-    private string $descripton;
-    private string $author;
-    private int $page;
-    private bool $isOn = false;
+    public string $name;
+    public string $descripton;
 
-    public function info(){
-        
+
+
+    public function info()
+    {
+        return "{$this->name} - {$this->descripton}";
     }
-
-    lorem
 }
