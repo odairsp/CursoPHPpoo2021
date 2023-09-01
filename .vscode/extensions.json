@@ -1,5 +1,6 @@
 {
-    "recommendations": [
-        "mehedidracula.php-namespace-resolver"
-    ]
+  "recommendations": [
+    "mehedidracula.php-namespace-resolver",
+    "tyriar.lorem-ipsum"
+  ]
 }

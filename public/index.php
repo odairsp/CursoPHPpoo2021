@@ -1,5 +1,9 @@
 <?php
 
+declare(strict_types=1);
+
+// header('Content-type:aplication/json');
+
 require '../vendor/autoload.php';
 
 use app\classes\Crud;
@@ -10,7 +14,7 @@ $login = new Login;
 $crud = new Crud;
 $user = new User;
 
-echo $login->logar();
+echo $login->auth("email@email", "senha");
 echo "<br>";
 echo $crud->read();
 echo "<br>";

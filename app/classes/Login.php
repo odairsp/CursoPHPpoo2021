@@ -5,11 +5,11 @@ namespace app\classes;
 class Login
 {
 
-    public $email;
-    public $password;
+    // public $email;
+    // public $password;
 
-    public function logar()
+    public function auth(string $email, string $password): string | int
     {
-        return "Logando...";
+        return "Logando... {$email}:{$password}.";
     }
 }
