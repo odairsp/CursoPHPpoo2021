@@ -21,3 +21,4 @@ echo "<br>";
 echo $user->read();
 echo "<br>";
 echo helper();
+echo helper2();
