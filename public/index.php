@@ -6,8 +6,8 @@ declare(strict_types=1);
 
 require '../vendor/autoload.php';
 
-use app\classes\Crud;
-use app\classes\Login;
+
+use app\classes\{Crud, Login};
 use app\models\User;
 
 $login = new Login;
